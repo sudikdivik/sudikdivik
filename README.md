@@ -1,16 +1,16 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- Typing animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=Dr.+P.+Praveen+Kumar;Energy+Systems+Researcher;Optimization+Engineer;PSP+%2B+PV+%2B+BESS+Day-Ahead+Trading)](https://git.io/typing-svg)
 
 <br/>
 
-**PostDoc Researcher — INESC TEC Porto, Portugal**
+**PostDoc Researcher â€” INESC TEC Porto, Portugal**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveen-kumar-polamarasetty)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sudikdivik)
-[![Profile Views](https://komarev.com/ghpvc/?username=sudikdivik&color=2E9EF7&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/sudikdivik)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Praveen-Kumar-Energy)
+[![Profile Views](https://komarev.com/ghpvc/?username=Praveen-Kumar-Energy&color=2E9EF7&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Praveen-Kumar-Energy)
 
 </div>
 
@@ -66,14 +66,14 @@ class EnergyResearcher:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=sudikdivik&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudikdivik&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Praveen-Kumar-Energy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveen-Kumar-Energy&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=sudikdivik&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Praveen-Kumar-Energy&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -83,7 +83,7 @@ class EnergyResearcher:
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=sudikdivik&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Praveen-Kumar-Energy&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -93,7 +93,7 @@ class EnergyResearcher:
 
 <div align="center">
 
-[![Praveen's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sudikdivik&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Praveen's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveen-Kumar-Energy&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -103,16 +103,16 @@ class EnergyResearcher:
 
 <div align="center">
 
-[![PSP-PV-BESS-DA-Optimizer](https://github-readme-stats.vercel.app/api/pin/?username=sudikdivik&repo=PSP-PV-BESS-DA-Optimizer&theme=tokyonight&hide_border=true)](https://github.com/sudikdivik/PSP-PV-BESS-DA-Optimizer)
+[![PSP-PV-BESS-DA-Optimizer](https://github-readme-stats.vercel.app/api/pin/?username=Praveen-Kumar-Energy&repo=PSP-PV-BESS-DA-Optimizer&theme=tokyonight&hide_border=true)](https://github.com/Praveen-Kumar-Energy/PSP-PV-BESS-DA-Optimizer)
 
 </div>
 
-> **PSP-PV-BESS-DA-Optimizer** — Industrial-grade MILP scheduling system for a 256 MW pumped-storage + 50 MW solar + 20 MW battery portfolio on the OMIE Iberian day-ahead market. Four-eyes approval, VaR/CVaR risk engine, ISP15 settlement, 30-day backtest.
+> **PSP-PV-BESS-DA-Optimizer** â€” Industrial-grade MILP scheduling system for a 256 MW pumped-storage + 50 MW solar + 20 MW battery portfolio on the OMIE Iberian day-ahead market. Four-eyes approval, VaR/CVaR risk engine, ISP15 settlement, 30-day backtest.
 
 ```
 PSP (256 MW) + PV (50 MW) + BESS (20 MW / 80 MWh)
-         ↓  MILP (Pyomo + HiGHS, ~1 s)
-  DA Schedule → OMIE Bid → Approval → Settlement
+         â†“  MILP (Pyomo + HiGHS, ~1 s)
+  DA Schedule â†’ OMIE Bid â†’ Approval â†’ Settlement
 ```
 
 ---
@@ -121,11 +121,11 @@ PSP (256 MW) + PV (50 MW) + BESS (20 MW / 80 MWh)
 
 | Domain | Topics |
 |--------|--------|
-| ⚡ **Energy Storage** | Pumped-storage hydro, Li-ion BESS, hybrid co-optimization |
-| 📈 **Electricity Markets** | OMIE DA bidding, aFRR/PICASSO, imbalance settlement |
-| 🔢 **Mathematical Programming** | MILP, SOS2, McCormick linearisation, stochastic programming |
-| 📊 **Risk Management** | VaR, CVaR, Monte Carlo, scenario-based stress testing |
-| 🌞 **Renewables Integration** | PV forecasting, wind uncertainty, flexibility markets |
+| âš¡ **Energy Storage** | Pumped-storage hydro, Li-ion BESS, hybrid co-optimization |
+| ðŸ“ˆ **Electricity Markets** | OMIE DA bidding, aFRR/PICASSO, imbalance settlement |
+| ðŸ”¢ **Mathematical Programming** | MILP, SOS2, McCormick linearisation, stochastic programming |
+| ðŸ“Š **Risk Management** | VaR, CVaR, Monte Carlo, scenario-based stress testing |
+| ðŸŒž **Renewables Integration** | PV forecasting, wind uncertainty, flexibility markets |
 
 ---
 
@@ -133,7 +133,7 @@ PSP (256 MW) + PV (50 MW) + BESS (20 MW / 80 MWh)
 
 <div align="center">
 
-| 📚 Citations | 🎯 h-index | 🏛️ Institution | 🎓 PhD |
+| ðŸ“š Citations | ðŸŽ¯ h-index | ðŸ›ï¸ Institution | ðŸŽ“ PhD |
 |:---:|:---:|:---:|:---:|
 | **1,350+** | **21** | INESC TEC Porto | IIT Roorkee |
 
@@ -148,3 +148,4 @@ PSP (256 MW) + PV (50 MW) + BESS (20 MW / 80 MWh)
 **"The best optimizer is one that runs in production."**
 
 </div>
+
