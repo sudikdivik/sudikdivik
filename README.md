@@ -117,6 +117,8 @@ Power systems and renewable energy teaching; hybrid energy systems research.
 - Applied metaheuristic optimization in MATLAB to minimize LCC and LCOE across multiple battery technologies and dispatch strategies
 - Published complete optimization code on MathWorks File Exchange (open-source, reproducible research)
 
+**PhD Code (MATLAB):** [Optimization of Off-Grid Microgrid with Different Batteries](https://in.mathworks.com/matlabcentral/fileexchange/117260-optimization-of-off-grid-microgrid-with-different-batteries), MathWorks File Exchange, 1.5K downloads, rated 4.5/5, v1.1.4, MATLAB R2018a–R2022a
+
 ---
 
 ### Assistant Professor
