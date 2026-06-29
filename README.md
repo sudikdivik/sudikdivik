@@ -1,18 +1,28 @@
-# Dr. Polamarasetty Praveen Kumar
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Dr.%20Polamarasetty%20Praveen%20Kumar&fontSize=36&fontColor=ffffff&fontAlignY=40&desc=Energy%20Asset%20Optimisation%20%7C%20Multi-Market%20Bidding%20%7C%20MILP%20Dispatch&descSize=18&descAlignY=62&animation=fadeIn)
 
-**Energy Asset Optimisation, Multi-Market Bidding, MILP Dispatch, Risk Analytics**
+<p align="center">
+  <a href="https://linkedin.com/in/polamarasetty-praveen-kumar-2a3a422a1">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://scholar.google.com/citations?user=8EFqCyAAAAAJ">
+    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+  </a>
+  <a href="mailto:praveenindia.p@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/Available-July%202026-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/EU%20Work%20Auth-Portugal-003399?style=for-the-badge&logo=europeanunion&logoColor=white"/>
+</p>
 
-📧 praveenindia.p@gmail.com &nbsp;|&nbsp; 📍 Porto, Portugal &nbsp;|&nbsp; 🟢 Available: July 2026 &nbsp;|&nbsp; 🇪🇺 EU Work Authorization
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/polamarasetty-praveen-kumar-2a3a422a1)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-H--Index%2023%20·%201%2C538%20citations-4285F4?style=flat-square&logo=googlescholar)](https://scholar.google.com/citations?user=8EFqCyAAAAAJ)
-[![Publications](https://img.shields.io/badge/Publications-70%2B-orange?style=flat-square)]()
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2C8EBB&center=true&vCenter=true&width=600&lines=Energy+Trading+Engineer+%26+MILP+Optimisation;DA+%7C+IDA+%7C+XBID+%7C+aFRR+%7C+mFRR+Pipeline;IBM+CPLEX+%7C+Python+%7C+Risk+Analytics;Iberian+Power+Markets+%E2%80%94+MIBEL+%2F+OMIE;H-Index+23+%C2%B7+1%2C538+Citations+%C2%B7+70%2B+Publications"/>
+</p>
 
 ---
 
-## About Me
+## 👤 About Me
 
-Energy systems researcher and industrial-grade software engineer with deep expertise in **hybrid plant optimisation, multi-market bidding and scheduling, and MILP-based dispatch**.
+> Energy systems researcher and industrial-grade software engineer with deep expertise in **hybrid plant optimisation, multi-market bidding and scheduling, and MILP-based dispatch**.
 
 Built a production-grade **14-gate multi-market MILP bidding and scheduling system** (DA, IDA1/2/3, XBID, aFRR, mFRR, ISP dispatch simulation, settlement, and analytics) for the real **Alqueva hybrid plant** (518.4 MW PSP + 5 MWp PV + 1 MW / 2 MWh BESS, Portugal / MIBEL). System uses IBM CPLEX, auto-selects ML forecasters via walk-forward CV, and applies a permanent **13-invariant physical checker** that blocks any bid with a constraint violation before it propagates. Risk framework includes historical VaR/CVaR and Monte Carlo bootstrap confidence intervals.
 
@@ -20,29 +30,35 @@ Built a production-grade **14-gate multi-market MILP bidding and scheduling syst
 
 ## ⚡ Flagship Project: Alqueva 24-Hour Energy Trading Optimizer
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)](https://python.org)
-[![CPLEX](https://img.shields.io/badge/Solver-CPLEX%2022.1-brightgreen?style=flat-square&logo=ibm)](https://ibm.com/cplex)
-[![Fallback](https://img.shields.io/badge/Fallback-HiGHS%20%7C%20CBC-green?style=flat-square)]()
-[![MILP](https://img.shields.io/badge/Optimisation-MILP-orange?style=flat-square)]()
-[![Markets](https://img.shields.io/badge/Markets-DA%20%7C%20IDA1--3%20%7C%20XBID%20%7C%20aFRR%20%7C%20mFRR-purple?style=flat-square)]()
-[![Grid](https://img.shields.io/badge/Grid-MIBEL%20%2F%20OMIE%20%2F%20REN-red?style=flat-square)]()
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IBM%20CPLEX-054ADA?style=for-the-badge&logo=ibm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HiGHS%20%7C%20CBC-Fallback-4CAF50?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MILP-Optimisation-FF6B35?style=for-the-badge"/>
+  <br/>
+  <img src="https://img.shields.io/badge/DA%20%7C%20IDA1--3%20%7C%20XBID-Markets-7B2FBE?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/aFRR%20%7C%20mFRR-Ancillary-9C27B0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MIBEL%20%7C%20OMIE%20%7C%20REN-Grid-C62828?style=for-the-badge"/>
+</p>
 
-Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operating in the Iberian electricity market (MIBEL / OMIE).
+<p align="center">
+  <i>Production-grade MILP trading pipeline for the <b>Alqueva hybrid plant</b> — Iberian electricity market (MIBEL / OMIE)</i>
+</p>
 
-### Plant
+### 🏭 Plant
 
 | Asset | Specification |
-|-------|--------------|
+|:------|:-------------|
 | **PSP: Pumped Storage** | 4 × 129.6 MW reversible Francis units, 518.4 MW generation / 446.4 MW pumping |
 | **PV: Floating Solar** | 5 MWp, commissioned 2022 |
 | **BESS: Battery** | 1 MW / 2 MWh, SOC 10–95 % |
 | **Upper Reservoir** | Alqueva, 3,150 hm³ usable |
 | **Lower Reservoir** | Pedrógão, 54 hm³ usable |
 
-### 15-Phase Pipeline
+### 🔄 15-Phase Pipeline
 
 | Phase | Gate | Scope |
-|-------|------|-------|
+|:------|:-----|:------|
 | **1: DA** | OMIE D-1 12:00 | H1–H24 energy bids |
 | **2A: IDA1** | OMIE SIDC D-1 15:00 | Position delta re-optimisation |
 | **2B: IDA2** | OMIE SIDC D-1 22:00 | Position delta re-optimisation |
@@ -58,7 +74,7 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 | **5C: Imbalance Settlement** | Post-delivery | REN 15-min ISP penalty calculation |
 | **5D: Analytics** | End-of-day | KPI report, 5-sheet Excel, 9 figures |
 
-### Architecture Highlights
+### 🏗️ Architecture Highlights
 
 - **Single shared MILP model**: `core_milp_solver.py` used by all 15 phases; each phase passes its own horizon, frozen variables, and market constraints
 - **`--from-phase` hot-restart**: re-enter at any phase without re-running earlier phases; production-safe for intraday gate re-optimisation
@@ -74,8 +90,12 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 
 ## 🛠️ Technical Skills
 
-| Area | Detail |
-|------|--------|
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,matlab,git,github,vscode&theme=dark"/>
+</p>
+
+| Area | Skills |
+|:-----|:-------|
 | **Optimisation** | MILP formulation, Pyomo, IBM CPLEX, HiGHS, CBC, unit commitment, piecewise-linear turbine/pump curves, McCormick linearization |
 | **Energy Markets** | OMIE DA/IDA, SIDC IDA1/2/3 (post-Jun 2024 reform), aFRR via PICASSO, mFRR via MARI, XBID continuous intraday, ISP imbalance settlement, FCR headroom reservation |
 | **Risk & P&L** | VaR & CVaR (historical simulation + Monte Carlo bootstrap), Sharpe ratio, max drawdown, P&L attribution by stream, pre-trade risk checks, audit logging |
@@ -86,10 +106,24 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 
 ---
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Praveen-Kumar-Energy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveen-Kumar-Energy&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praveen-Kumar-Energy&theme=tokyo-night&hide_border=true&area=true"/>
+</p>
+
+---
+
 ## 💼 Professional Experience
 
-### Energy Optimisation Engineer (PostDoc Researcher)
-**INESC TEC, Centre for Power and Energy Systems (CPES), Porto, Portugal**, *Feb 2025 – Present*
+### 🔬 Energy Optimisation Engineer (PostDoc Researcher)
+**INESC TEC, Centre for Power and Energy Systems (CPES), Porto, Portugal** &nbsp;|&nbsp; *Feb 2025 – Present*
 
 *STOR-HY (Horizon Europe GA 101172905), Alqueva Hybrid Plant: 4 × 129.6 MW reversible Francis PSP + 5 MWp Floating PV + 1 MW / 2 MWh BESS*
 
@@ -101,17 +135,13 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 - Immutable audit trail: append-only JSON-lines logging every decision with market-time timestamps; designed for regulatory inspection and post-trade accountability
 - Participated in consortium technical meetings with **EDP Produção, EDP New Energy Technologies, EDF, and GE Vernova** within the STOR-HY Horizon Europe project
 
----
-
-### Assistant Professor
-**GMR Institute of Technology, Rajam, India, Dept. Electrical & Electronics Engineering**, *Jul 2021 – Jan 2025*
+### 🎓 Assistant Professor
+**GMR Institute of Technology, Rajam, India** &nbsp;|&nbsp; *Jul 2021 – Jan 2025*
 
 Power systems and renewable energy teaching; hybrid energy systems research.
 
----
-
-### PhD Research Scholar
-**IIT Roorkee, Dept. of Hydro and Renewable Energy**, *Jul 2018 – Jul 2021*
+### 🔬 PhD Research Scholar
+**IIT Roorkee, Dept. of Hydro and Renewable Energy** &nbsp;|&nbsp; *Jul 2018 – Jul 2021*
 
 - Designed and optimized hybrid renewable energy systems (PV, wind, biomass, BESS) for rural electrification in India
 - Applied metaheuristic optimization in MATLAB to minimize LCC and LCOE across multiple battery technologies and dispatch strategies
@@ -119,10 +149,8 @@ Power systems and renewable energy teaching; hybrid energy systems research.
 
 **PhD Code (MATLAB):** [Optimization of Off-Grid Microgrid with Different Batteries](https://in.mathworks.com/matlabcentral/fileexchange/117260-optimization-of-off-grid-microgrid-with-different-batteries), MathWorks File Exchange, MATLAB R2018a–R2022a
 
----
-
-### Assistant Professor
-**GMR Institute of Technology, Rajam, India, Dept. Electrical & Electronics Engineering**, *May 2013 – Jun 2018*
+### 🎓 Assistant Professor
+**GMR Institute of Technology, Rajam, India** &nbsp;|&nbsp; *May 2013 – Jun 2018*
 
 Power systems and electrical engineering teaching; early research in smart grids and hybrid microgrids.
 
@@ -131,7 +159,7 @@ Power systems and electrical engineering teaching; early research in smart grids
 ## 🎓 Education
 
 | Degree | Institution | Year |
-|--------|-------------|------|
+|:-------|:------------|:-----|
 | **Ph.D.** in Renewable Energy | IIT Roorkee, India | 2018 – 2021 |
 | **M.E.** in Power Electronics Drives & Control | Andhra University, India | 2010 – 2012 |
 | **B.Tech** in Electrical & Electronics Engineering | JNTU Kakinada, India | 2006 – 2010 |
@@ -140,25 +168,49 @@ Power systems and electrical engineering teaching; early research in smart grids
 
 ## 🤝 Industrial Collaborations & Funded Projects
 
-**STOR-HY**, Horizon Europe GA 101172905, 2025–Present  
-Partners: EDP Produção, EDP New Energy Technologies, EDF, GE Vernova  
+<table>
+<tr>
+<td width="50%">
+
+**STOR-HY** &nbsp; `Horizon Europe GA 101172905` &nbsp; `2025–Present`
+
+Partners: EDP Produção, EDP New Energy Technologies, EDF, GE Vernova
+
 *Built core MILP optimisation system for the Alqueva hybrid plant*
 
-**SE-HYDRO**, Horizon Europe GA 101269565, Started May 2026  
-16-partner consortium: NTUA (coordinator), ANDRITZ HYDRO, EDP, GE Vernova, PPC Greece, Smart Innovation Norway  
-*Co-authored successful Horizon Europe grant proposal; contributing to AI-based energy management and digital twin frameworks for hydro pilot sites in Greece, France, Portugal and Serbia*
+</td>
+<td width="50%">
+
+**SE-HYDRO** &nbsp; `Horizon Europe GA 101269565` &nbsp; `May 2026–`
+
+16-partner consortium: NTUA, ANDRITZ HYDRO, EDP, GE Vernova, PPC Greece, Smart Innovation Norway
+
+*Co-authored grant proposal; AI-based energy management and digital twin frameworks for hydro pilot sites in Greece, France, Portugal and Serbia*
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📚 Research Impact
 
-[![Publications](https://img.shields.io/badge/Publications-70%2B-blue?style=flat-square)]()
-[![H-Index](https://img.shields.io/badge/H--Index-23-green?style=flat-square)]()
-[![Citations](https://img.shields.io/badge/Citations-1%2C538-orange?style=flat-square)]()
+<p align="center">
+  <img src="https://img.shields.io/badge/Publications-70%2B-1565C0?style=for-the-badge&logo=bookstack&logoColor=white"/>
+  <img src="https://img.shields.io/badge/H--Index-23-2E7D32?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Citations-1%2C538-E65100?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+</p>
 
-[Google Scholar Profile →](https://scholar.google.com/citations?user=8EFqCyAAAAAJ)
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=8EFqCyAAAAAJ">
+    <img src="https://img.shields.io/badge/View%20Google%20Scholar%20Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-*All code is production-grade Python: modular, typed, config-driven, and built to industrial trading desk standards.*  
-**Available from July 2026, EU Work Authorization, Porto, Portugal**
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Praveen-Kumar-Energy&theme=tokyonight&no-frame=true&margin-w=12&column=4"/>
+</p>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer)
