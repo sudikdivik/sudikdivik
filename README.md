@@ -14,7 +14,7 @@
 
 Energy systems researcher and industrial-grade software engineer with deep expertise in **hybrid plant optimisation, multi-market bidding and scheduling, and MILP-based dispatch**.
 
-Built a production-grade **14-gate multi-market MILP bidding and scheduling system** (DA + IDA1/2/3 + XBID + aFRR + mFRR + ISP dispatch simulation + settlement + analytics) for the real **Alqueva hybrid plant** (518.4 MW PSP + 5 MWp PV + 1 MW / 2 MWh BESS, Portugal / MIBEL). System uses IBM CPLEX (avg solve 0.172 s, mip_gap=0.005), auto-selects ML forecasters (Naive / Ridge / LightGBM via walk-forward CV), and applies a permanent **13-invariant physical checker** that blocks any bid with a constraint violation before it propagates. Risk framework includes historical VaR/CVaR (95 % & 99 %) and Monte Carlo bootstrap confidence intervals (n=10,000).
+Built a production-grade **14-gate multi-market MILP bidding and scheduling system** (DA + IDA1/2/3 + XBID + aFRR + mFRR + ISP dispatch simulation + settlement + analytics) for the real **Alqueva hybrid plant** (518.4 MW PSP + 5 MWp PV + 1 MW / 2 MWh BESS, Portugal / MIBEL). System uses IBM CPLEX, auto-selects ML forecasters (Naive / Ridge / LightGBM via walk-forward CV), and applies a permanent **13-invariant physical checker** that blocks any bid with a constraint violation before it propagates. Risk framework includes historical VaR/CVaR (95 % & 99 %) and Monte Carlo bootstrap confidence intervals (n=10,000).
 
 ---
 
@@ -60,8 +60,7 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 
 ### Architecture Highlights
 
-- **Single shared MILP model** — `core_milp_solver.py` used by all 15 phases; each phase passes its own horizon, frozen variables, and market constraints. IBM CPLEX avg solve 0.172 s, mip_gap = 0.005
-- **`--from-phase` hot-restart** — re-enter at any phase without re-running earlier phases; production-safe for intraday gate re-optimisation
+- **Single shared MILP model** — `core_milp_solver.py` used by all 15 phases; each phase passes its own horizon, frozen variables, and market constraints.- **`--from-phase` hot-restart** — re-enter at any phase without re-running earlier phases; production-safe for intraday gate re-optimisation
 - **ComponentStore** — typed dataclass store (GateResults, DispatchPlan, SettlementSheet) shared across phases; zero file I/O between phases
 - **13-invariant physical checker** — re-derives dispatch from solved schedule; checks mode exclusivity, min stable load, ramp rates, reservoir bounds, BESS SoC, energy balance, no-double-sell, FAT deliverability; raises `BidCheckError` on any violation before propagation
 - **ML forecasting pipeline** — DA price, aFRR, mFRR, PV power, water inflow forecasters each auto-select best model (Naive / Ridge / LightGBM) via 4-fold walk-forward CV; 17 engineered features for DA price (lag 24h/48h/168h/336h, rolling mean/std, cyclical calendar)
@@ -76,7 +75,7 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 
 | Area | Detail |
 |------|--------|
-| **Optimisation** | MILP formulation · Pyomo · IBM CPLEX (mip_gap=0.005, avg 0.172 s) · HiGHS · CBC · unit commitment · piecewise-linear turbine/pump curves · McCormick linearization · 24-hour scheduling horizon |
+| **Optimisation** | MILP formulation · Pyomo · IBM CPLEX · HiGHS · CBC · unit commitment · piecewise-linear turbine/pump curves · McCormick linearization · 24-hour scheduling horizon |
 | **Energy Markets** | OMIE DA/IDA · SIDC IDA1/2/3 (post-Jun 2024 reform) · aFRR via PICASSO (FAT 5 min) · mFRR via MARI (FAT 12.5 min, live 27 Nov 2024) · XBID continuous intraday · ISP imbalance settlement (15-min from 19 Mar 2025) · FCR non-remunerated headroom reservation |
 | **Risk & P&L** | VaR & CVaR — historical simulation + Monte Carlo bootstrap (n=10,000) · confidence intervals · Sharpe ratio (annualised) · max drawdown · P&L attribution by stream · pre-trade risk checks · audit logging |
 | **ML & Forecasting** | LightGBM · Ridge regression · Naive baseline · walk-forward CV (4 folds) · lag/rolling/cyclical calendar features · DA price, aFRR, mFRR, PV power, inflow forecasters |
@@ -93,7 +92,7 @@ Production-grade MILP trading pipeline for the **Alqueva hybrid plant** operatin
 
 *STOR-HY (Horizon Europe GA 101172905) · Alqueva Hybrid Plant: 4 × 129.6 MW reversible Francis PSP + 5 MWp Floating PV + 1 MW / 2 MWh BESS*
 
-- Built a 14-gate end-to-end automated bidding and scheduling pipeline covering DA, IDA1/2/3, XBID, aFRR, mFRR, ISP dispatch simulation, activations, settlement, and daily analytics — all orchestrated from a single `run_production.py` with full audit logging; IDA bids are position deltas (post-June-2024 MIBEL reform); IDA3 restricted to hours 12–24; CPLEX avg solve 0.172 s
+- Built a 14-gate end-to-end automated bidding and scheduling pipeline covering DA, IDA1/2/3, XBID, aFRR, mFRR, ISP dispatch simulation, activations, settlement, and daily analytics — all orchestrated from a single `run_production.py` with full audit logging; IDA bids are position deltas (post-June-2024 MIBEL reform); IDA3 restricted to hours 12–24
 - ML forecasting pipeline: DA price, aFRR, mFRR, PV power, and water inflow forecasters each auto-select best model (Naive / Ridge / LightGBM) via 4-fold walk-forward CV; 17 engineered features for DA price (lag 24h/48h/168h/336h, rolling mean/std, cyclical calendar encodings)
 - Physical plant modelling: piecewise-linear turbine efficiency curves (4 Francis units, 129.6 MW each); pump flow linearized for MILP compatibility; full upper/lower reservoir dynamics with monthly natural inflow; BESS SoC tracking with binary charge/discharge commitment and cycle-weighted degradation cost
 - Permanent 13-invariant physical checker: re-derives dispatch from solved schedule before any result propagates — checks mode exclusivity, min stable load, ramp rates, reservoir bounds, BESS SoC, energy balance, no-double-sell, and FAT deliverability; raises `BidCheckError` on any violation
