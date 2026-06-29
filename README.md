@@ -5,7 +5,7 @@
 📧 praveenindia.p@gmail.com &nbsp;|&nbsp; 📍 Porto, Portugal &nbsp;|&nbsp; 🟢 Available: July 2026 &nbsp;|&nbsp; 🇪🇺 EU Work Authorization
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/polamarasetty-praveen-kumar-2a3a422a1)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-H--Index%2022%20·%201%2C500%2B%20citations-4285F4?style=flat-square&logo=googlescholar)](https://scholar.google.com/citations?user=8EFqCyAAAAAJ)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-H--Index%2023%20·%201%2C538%20citations-4285F4?style=flat-square&logo=googlescholar)](https://scholar.google.com/citations?user=8EFqCyAAAAAJ)
 [![Publications](https://img.shields.io/badge/Publications-70%2B-orange?style=flat-square)]()
 
 ---
@@ -153,8 +153,8 @@ Partners: EDP Produção, EDP New Energy Technologies, EDF, GE Vernova
 ## 📚 Research Impact
 
 [![Publications](https://img.shields.io/badge/Publications-70%2B-blue?style=flat-square)]()
-[![H-Index](https://img.shields.io/badge/H--Index-22-green?style=flat-square)]()
-[![Citations](https://img.shields.io/badge/Citations-1%2C500%2B-orange?style=flat-square)]()
+[![H-Index](https://img.shields.io/badge/H--Index-23-green?style=flat-square)]()
+[![Citations](https://img.shields.io/badge/Citations-1%2C538-orange?style=flat-square)]()
 
 [Google Scholar Profile →](https://scholar.google.com/citations?user=8EFqCyAAAAAJ)
 
